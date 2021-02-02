@@ -11,7 +11,7 @@ def genRandomKey(length):
 key = genRandomKey(128)
 
 
-print('The current URL is: http://192.168.2.145/?c=' + key)
+print('The current URL is: http://localhost/?c=' + key)
 text_file = open("../key.txt", "w")
 n = text_file.write(key)
 text_file.close()
