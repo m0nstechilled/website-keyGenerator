@@ -1,7 +1,4 @@
-import os
-import time
-import random
-import string
+import os, time random, string
 
 def genRandomKey(length):
     letters = string.ascii_lowercase + string.ascii_uppercase
